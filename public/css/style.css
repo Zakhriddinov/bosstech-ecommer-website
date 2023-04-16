@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+  list-style: none;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* Header Section */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-navbar {
+  height: 7vh;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid #fd7e14;
+}
+.top-icons {
+  margin-right: 45px;
+}
+.top-icons i {
+  font-size: 20px;
+  color: #fd7e14;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.other-links {
+  margin-left: 33px;
+}
+.other-links i {
+  color: #fd7e14;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#btn-login {
+  width: 100px;
+  border: 2px solid #fd7e14;
+  color: #fd7e14;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 5vh;
+  transition: 0.5s ease;
+  cursor: pointer;
+  background-color: white;
+}
+#btn-login a {
+  text-decoration: none;
+  color: #fd7e14;
+  transition: 0.5s ease;
+}
+#btn-login:hover a {
+  color: white;
+}
+#btn-login:hover {
+  background-color: #fd7e14;
+  color: white;
+}
+#btn-signup {
+  width: 100px;
+  border: 2px solid #fd7e14;
+  color: #fd7e14;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 5vh;
+  transition: 0.5s ease;
+  cursor: pointer;
+  background-color: white;
+}
+#btn-signup a {
+  text-decoration: none;
+  color: #fd7e14;
+  transition: 0.5s ease;
+}
+#btn-signup:hover a {
+  color: white;
+}
+#btn-signup:hover {
+  background-color: #fd7e14;
+  color: white;
+}
+@media screen and (max-width: 500px) {
+  .top-icons {
+    margin-right: 30px;
+  }
+  .top-icons i {
+    font-size: 15px;
+  }
+  .other-links i {
+    font-size: 15px;
+  }
+  #btn-login {
+    width: 60px;
+    height: 5vh;
+    font-size: 14px;
+  }
+  #btn-signup {
+    width: 70px;
+    height: 5vh;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .top-icons {
+    margin-right: 10px;
+  }
+  .top-icons i {
+    font-size: 10px;
+  }
+  .other-links {
+    margin-left: 10px;
+  }
+  .other-links i {
+    font-size: 10px;
+  }
+  #btn-login {
+    width: 50px;
+    height: 5vh;
+    font-size: 13px;
+  }
+  #btn-signup {
+    width: 60px;
+    height: 5vh;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .top-icons {
+    margin-right: 5px;
+  }
+  .top-icons i {
+    font-size: 12px;
+  }
+  .other-links {
+    margin-left: 10px;
+  }
+  .other-links i {
+    font-size: 12px;
+  }
+  #btn-login {
+    width: 40px;
+    height: 5vh;
+    font-size: 10px;
+  }
+  #btn-signup {
+    width: 50px;
+    height: 5vh;
+    font-size: 10px;
+  }
+}
+
+/* navbar */
+.navbar-brand img {
+  width: 40px;
+}
+#navbar {
+  background-color: #fd7e14;
+  font-size: 16px;
+}
+#navbar .nav-link {
+  color: white;
+  font-weight: 500;
+  margin-left: 5px;
+  transition: 0.3s ease;
+}
+#navbar .nav-link:hover {
+  border-radius: 5px;
+}
+.dropdown li a {
+  color: white;
+}
+#search-btn {
+  color: white;
+  border: 1px solid white;
+  font-weight: 600;
+}
+#search-btn:hover {
+  background-color: #fd7e14;
+}
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+.navbar-toggler:active {
+  outline: none;
+  border: none;
+}
+
+@media screen and (max-width: 500px) {
+  #navbar {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #navbar {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #navbar {
+    font-size: 10px;
+  }
+}
+/* navbar */
